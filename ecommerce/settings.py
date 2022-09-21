@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-22z@6%prz+ry)5m6o#28m-zo)%!6g(rw#pux^r(l9hnzylgp5n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'babecommerce.herokuapp.com']
 
 
 # Application definition
