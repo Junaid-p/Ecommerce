@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    This is index page
+    This is index page <br> <br>
+    <img src="{% static 'images/download4.jpg' %}" alt="" height="250px" width="250px"> <br> <br>
+    <a href="{% url 'common:customersig' %}">customer signup</a>
 </body>
 </html>
